@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ac27a30daed77c46ad39d4690317008, type: 3}
-  m_Name: "Espa\xF1ol"
+  m_Name: English
   m_EditorClassIdentifier: Assembly-CSharp::Traduction
-  texto1: "Bienvenido al sistema de traducci\xF3n."
-  texto2: Esto es un texto de ejemplo.
-  texto3: Selecciona el idioma que quieras.
-  texto4: Pulsa los botones para traducir.
+  texto1: 'Welcome to the translation system. '
+  texto2: 'This is an example text. '
+  texto3: 'Select the language you want. '
+  texto4: 'Press the buttons to translate. '

@@ -431,7 +431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1005187275}
+      - m_Target: {fileID: 1005187277}
         m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
         m_MethodName: TranslateTo
         m_Mode: 3
@@ -490,7 +490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1005187276}
-  - component: {fileID: 1005187275}
+  - component: {fileID: 1005187277}
   m_Layer: 0
   m_Name: LanguageManager
   m_TagString: Untagged
@@ -498,26 +498,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1005187275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005187274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7f8237db97ccb4da885f62cd1f71df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LanguageManager
-  languages:
-  - {fileID: 11400000, guid: 9a866e81bd3d21a4ca17bb623b932c5e, type: 2}
-  - {fileID: 11400000, guid: 0ae2a6cf30416ba439d4770923a57370, type: 2}
-  - {fileID: 11400000, guid: 76c6933c7a0afb6449306cb7ba62c9e1, type: 2}
-  firstText: {fileID: 5369850326008665637}
-  secondText: {fileID: 6873875452807614303}
-  thirdText: {fileID: 6508825493953999907}
-  fourthText: {fileID: 362262728005685873}
 --- !u!4 &1005187276
 Transform:
   m_ObjectHideFlags: 0
@@ -533,6 +513,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1005187277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005187274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7f8237db97ccb4da885f62cd1f71df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LanguageManager
+  languages:
+  - {fileID: 11400000, guid: 6ad12afd24a0cf14ab8861b95f0bfcdd, type: 2}
+  - {fileID: 11400000, guid: 0ae2a6cf30416ba439d4770923a57370, type: 2}
+  - {fileID: 11400000, guid: f16a7d7c2bfb8f342848a7e0a57e4f6c, type: 2}
+  firstText: {fileID: 5369850326008665637}
+  secondText: {fileID: 6873875452807614303}
+  thirdText: {fileID: 6508825493953999907}
+  fourthText: {fileID: 362262728005685873}
 --- !u!1 &1049908857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1005187275}
+      - m_Target: {fileID: 1005187277}
         m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
         m_MethodName: TranslateTo
         m_Mode: 3
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1005187275}
+      - m_Target: {fileID: 1005187277}
         m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
         m_MethodName: TranslateTo
         m_Mode: 3

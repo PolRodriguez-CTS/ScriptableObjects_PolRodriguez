@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class LanguageManager : MonoBehaviour
 {
-    [SerializeField] private LanguageConfig[] languages;
+    [SerializeField] private Traduction[] languages;
     
 
     public Text firstText;
@@ -34,4 +34,5 @@ public class LanguageManager : MonoBehaviour
         thirdText.text = languages[languageIndex].texto3;
         fourthText.text = languages[languageIndex].texto4;
     }
+
 }
